@@ -28,27 +28,26 @@ This lab challenges students to build a production-grade **1D Convolutional Neur
 ## 🔍 Research Motivation: Expanding Beyond Static Headline Classification
 
 ### 1. The Pedagogical Sandbox vs. Market Reality
-Introductory academic labs often frame natural language processing as an immediate trading tool:
-> *"Financial sentiment analysis is a crucial application of NLP that helps investors understand market sentiment by automatically classifying texts as positive, negative, or neutral."*
+Introductory applied machine learning curricula frequently introduce text classification through financial headline sentiment analysis:
+> *"Analyzing financial news headlines to classify market sentiment as positive, neutral, or negative."*
 
-While this formulation is an effective introductory sandbox for mastering foundational mechanics—converting text into numerical vectors, wiring convolutional kernels, and pooling latent features—**in institutional quantitative finance, applying isolated scalar sentiment as an immediate trading signal faces well-documented market microstructure constraints**:
+This formulation serves as an effective, highly accessible learning sandbox for mastering foundational computational mechanics—converting text into numerical vectors, wiring convolutional kernels, and pooling latent features. 
+
+However, in institutional quantitative finance and risk engineering, applying isolated scalar sentiment as an immediate trading signal faces well-documented market microstructure constraints:
 
 1. **Severe Latency Decay (The HFT Barrier):**  
    Modern electronic markets operate in microsecond regimes. Institutional quantitative market makers and high-frequency trading firms (such as **Jane Street** and **Citadel Securities**) execute via collocated FPGA pipelines and kernel-bypass network architectures that price incoming signals in sub-millisecond intervals. By the time a public news headline is scraped, tokenized, and passed through a neural network inference pass ($\sim 15\text{ms}$), market makers have already adjusted the order book. Retail-accessible headline sentiment is inherently a lagging indicator.
 2. **Multimodal Market Complexity:**  
    Real institutional execution requires multimodal inputs—limit order book (LOB) depth, cross-asset implied volatility surfaces, macroeconomic regime filters, and liquidity replenishment rates—never an isolated, 3-class scalar classification score.
-3. **The Pedagogical Hazard of False Confidence:**  
-   Teaching students that a basic 3-class classifier can reliably generate trading alpha without accounting for adverse selection, execution slippage, and spread dynamics creates a hazardous illusion of market predictability. In live financial markets, deploying capital on lagging sentiment scrapers leads to immediate adverse selection and capital destruction.
+3. **Bridging Classroom Sandboxes to Live Markets:**  
+   In introductory settings, simplifying assumptions are necessary for clear pedagogical delivery. However, applying baseline text models directly to live capital markets requires understanding execution mechanics, slippage, and adverse selection.
 
-> [!WARNING]
-> ### ⚠️ A Note on Pedagogical Overconfidence in Financial AI
-> When universities hand undergraduate students a toy tutorial called *"Sentiment Analysis of Financial News to Help Investors Make Trading Decisions,"* students frequently walk away with dangerous delusions:
-> - **That financial markets are linear, stationary, and predictable.**
-> - **That a 10-line PyTorch script scraping headlines can outsmart Jane Street and Citadel.**
-> - **That opening a retail brokerage account to trade on lagging sentiment signals is viable—only to be wiped out in milliseconds by adverse selection and execution slippage.**
-> 
-> *In an adversarial financial ecosystem, pedagogical overconfidence is financial self-harm.*  
-> **BlackSwan was engineered to replace this toy illusion with quantitative reality: neural networks in finance are forensic risk-measurement instruments, not speculative gambling toys.**
+> [!NOTE]
+> ### 🛡️ Ethical & Quantitative Note: Real-World Market Microstructure & Model Boundaries
+> In quantitative finance and computational systems education, distinguishing between illustrative learning sandboxes and live execution environments is a foundational principle:
+> - **Market Non-Linearity & Efficiency:** Live financial markets are non-stationary, highly adaptive environments. Production trading requires accounting for order impact, liquidity replenishment, and execution slippage.
+> - **Adverse Selection & Latency:** Deploying directional strategies solely on lagging public news feeds without order-book co-location exposes models to adverse selection by high-frequency market participants (such as **Jane Street**, **Citadel Securities**, and institutional market makers).
+> - **Risk Forensics over Speculation:** This project approaches neural natural language processing through the lens of institutional risk management: treating language models as diagnostic and forensic instruments for tail-risk analysis, rather than standalone speculative trading tools.
 
 ### 2. The Black Swan Pivot: Neural Architectures as Forensic Instruments
 Rather than dismissing the 1D CNN + Embedding architecture, quantitative research desks (including quantitative researchers at **Citadel**, **Jane Street**, and academic microstructure laboratories) recognize its true power: **forensic microstructure analysis of exogenous shocks (Black Swan events) and tail-risk modeling.**
@@ -63,7 +62,7 @@ During extreme, historically unprecedented anomalies (e.g., September 11, 2001; 
 ### 3. Elevating the Curriculum
 This workbook does not bypass or diminish the syllabus. It **elevates** it:
 - We satisfy **100% of the course grading rubric** (Data Preparation, BERT Transfer Learning, Multi-Filter Conv1D, Max-over-Time Pooling, and Evaluation Metrics).
-- Instead of promoting the dangerous illusion of a "day-trading toy," students construct a rigorous **quantitative forensic and risk-measurement instrument** capable of modeling information diffusion during systemic market anomalies.
+- By extending the foundational sentiment architecture into a **quantitative forensic and risk-measurement instrument**, students gain practical insight into how institutional risk desks analyze information diffusion during systemic market anomalies.
 
 ---
 

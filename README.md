@@ -25,13 +25,13 @@ This lab challenges students to build a production-grade **1D Convolutional Neur
 
 ---
 
-## 🔍 Critical Research Motivation: Moving Beyond "Basic" Headline Sentiment
+## 🔍 Research Motivation: Expanding Beyond Static Headline Classification
 
 ### 1. The Pedagogical Sandbox vs. Market Reality
 Introductory academic labs often frame natural language processing as an immediate trading tool:
 > *"Financial sentiment analysis is a crucial application of NLP that helps investors understand market sentiment by automatically classifying texts as positive, negative, or neutral."*
 
-While this formulation is an effective introductory sandbox for mastering foundational mechanics—converting text into numerical vectors, wiring convolutional kernels, and pooling latent features—**in institutional quantitative finance, treating basic headline sentiment as an alpha generator is fundamentally oversimplified ("basic")**:
+While this formulation is an effective introductory sandbox for mastering foundational mechanics—converting text into numerical vectors, wiring convolutional kernels, and pooling latent features—**in institutional quantitative finance, applying isolated scalar sentiment as an immediate trading signal faces well-documented market microstructure constraints**:
 
 1. **Severe Latency Decay (The HFT Barrier):**  
    Modern electronic markets operate in microsecond regimes. By the time a public news headline is scraped, tokenized, and passed through a neural network inference pass ($\sim 15\text{ms}$), collocated High-Frequency Trading (HFT) algorithms and direct exchange order-flow matching engines have already priced the information into the asset. Retail-accessible headline sentiment is inherently a lagging indicator.

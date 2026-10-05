@@ -3,6 +3,13 @@
 > **An Advanced Quantitative Case Study on Exogenous Information Latency and Semantic Microstructure**  
 > *Coursework Extension & Advanced Research Workbook*
 
+### 👤 Author & Academic Attribution
+* **Student:** Gwendalynn Lim Wan Ting
+* **Institution:** Singapore Institute of Technology (SIT)
+* **Student Email:** [`2504137@sit.singaporetech.edu.sg`](mailto:2504137@sit.singaporetech.edu.sg)
+* **Academic Program:** Information and Communications Technology / Applied Computing (AI & Machine Learning)
+* **Course Context:** ICT3506C: Applied Natural Language Processing — Advanced Lab Extension (Lab 2.4: Embedding + CNN)
+
 ---
 
 ## 🧭 Executive Overview

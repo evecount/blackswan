@@ -1,5 +1,12 @@
 # BlackSwan Lab: Workbook Specification & Mathematical Framework
 
+**Student:** Gwendalynn Lim Wan Ting (`2504137@sit.singaporetech.edu.sg`)  
+**Institution:** Singapore Institute of Technology (SIT)  
+**Program:** Information and Communications Technology / Applied Computing (AI & ML)  
+**Module:** ICT3506C Applied Natural Language Processing — Lab 2.4 Research Extension  
+
+---
+
 ## 1. Problem Formulation: Exogenous Shock Latency
 
 In conventional sentiment analysis, a sentence $S = (w_1, w_2, \dots, w_T)$ is assigned a static categorical label $y \in \{-1, 0, 1\}$.

@@ -118,6 +118,8 @@ D:\blackswan\
 ├── README.md                      # Academic context, architecture, & theoretical foundation
 ├── .gitignore                     # Standard Python/Jupyter ignore rules
 ├── WORKBOOK_SPECIFICATION.md      # Detailed problem set, math specifications, & rubrics
+├── scripts/
+│   └── BLACKSWAN_DYNAMITE_EPISODE.md # Production presentation script (DYNAMITE syntax)
 ├── notebooks/
 │   └── BlackSwan_Lab_Workbook.ipynb # Interactive student workbook with code scaffolds
 └── data/

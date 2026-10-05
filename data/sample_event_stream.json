@@ -1,0 +1,51 @@
+[
+  {
+    "timestamp": "2001-09-11T08:46:20-04:00",
+    "source": "Local News Wire",
+    "headline": "Smoke reported pouring from the upper floors of the World Trade Center North Tower.",
+    "severity_label": "UNCERTAINTY",
+    "ground_truth_class": 0
+  },
+  {
+    "timestamp": "2001-09-11T08:48:15-04:00",
+    "source": "Associated Press",
+    "headline": "A small private plane appears to have crashed into the World Trade Center in lower Manhattan.",
+    "severity_label": "LOCALIZED_INCIDENT",
+    "ground_truth_class": 0
+  },
+  {
+    "timestamp": "2001-09-11T08:52:00-04:00",
+    "source": "Broadcast Transcript",
+    "headline": "First responders on the scene. Eyewitnesses describe a twin-engine commuter plane losing control.",
+    "severity_label": "LOCALIZED_INCIDENT",
+    "ground_truth_class": 0
+  },
+  {
+    "timestamp": "2001-09-11T08:58:30-04:00",
+    "source": "Reuters Financial",
+    "headline": "Dow Jones pre-market futures slip 40 points on reports of explosion and fire at New York financial center.",
+    "severity_label": "EARLY_MARKET_IMPACT",
+    "ground_truth_class": 1
+  },
+  {
+    "timestamp": "2001-09-11T09:03:02-04:00",
+    "source": "Live Network Feed",
+    "headline": "A second large commercial aircraft has struck the South Tower of the World Trade Center.",
+    "severity_label": "SYSTEMIC_SHOCK",
+    "ground_truth_class": 2
+  },
+  {
+    "timestamp": "2001-09-11T09:05:40-04:00",
+    "source": "Federal Aviation Wire",
+    "headline": "FAA halts all departures heading to or through New York airspace. Possible coordinated hijackings.",
+    "severity_label": "SYSTEMIC_SHOCK",
+    "ground_truth_class": 2
+  },
+  {
+    "timestamp": "2001-09-11T09:12:15-04:00",
+    "source": "Wall Street Wire",
+    "headline": "NYSE and Nasdaq delay opening bell indefinitely as financial district evacuation begins.",
+    "severity_label": "MARKET_SHUTDOWN",
+    "ground_truth_class": 2
+  }
+]

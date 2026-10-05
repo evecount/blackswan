@@ -34,7 +34,7 @@ Introductory academic labs often frame natural language processing as an immedia
 While this formulation is an effective introductory sandbox for mastering foundational mechanics—converting text into numerical vectors, wiring convolutional kernels, and pooling latent features—**in institutional quantitative finance, applying isolated scalar sentiment as an immediate trading signal faces well-documented market microstructure constraints**:
 
 1. **Severe Latency Decay (The HFT Barrier):**  
-   Modern electronic markets operate in microsecond regimes. By the time a public news headline is scraped, tokenized, and passed through a neural network inference pass ($\sim 15\text{ms}$), collocated High-Frequency Trading (HFT) algorithms and direct exchange order-flow matching engines have already priced the information into the asset. Retail-accessible headline sentiment is inherently a lagging indicator.
+   Modern electronic markets operate in microsecond regimes. Institutional quantitative market makers and high-frequency trading firms (such as **Jane Street** and **Citadel Securities**) execute via collocated FPGA pipelines and kernel-bypass network architectures that price incoming signals in sub-millisecond intervals. By the time a public news headline is scraped, tokenized, and passed through a neural network inference pass ($\sim 15\text{ms}$), market makers have already adjusted the order book. Retail-accessible headline sentiment is inherently a lagging indicator.
 2. **Multimodal Market Complexity:**  
    Real institutional execution requires multimodal inputs—limit order book (LOB) depth, cross-asset implied volatility surfaces, macroeconomic regime filters, and liquidity replenishment rates—never an isolated, 3-class scalar classification score.
 3. **The Pedagogical Hazard of False Confidence:**  
@@ -51,7 +51,7 @@ While this formulation is an effective introductory sandbox for mastering founda
 > **BlackSwan was engineered to replace this toy illusion with quantitative reality: neural networks in finance are forensic risk-measurement instruments, not speculative gambling toys.**
 
 ### 2. The Black Swan Pivot: Neural Architectures as Forensic Instruments
-Rather than dismissing the 1D CNN + Embedding architecture, quantitative research desks recognize its true power: **forensic microstructure analysis of exogenous shocks (Black Swan events).**
+Rather than dismissing the 1D CNN + Embedding architecture, quantitative research desks (including quantitative researchers at **Citadel**, **Jane Street**, and academic microstructure laboratories) recognize its true power: **forensic microstructure analysis of exogenous shocks (Black Swan events) and tail-risk modeling.**
 
 ![Research Motivation & Latency Hypothesis](file:///d:/blackswan/assets/black_swan_research_motivation.png)
 

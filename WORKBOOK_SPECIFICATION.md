@@ -95,6 +95,6 @@ $$P(y = c \mid S) = \frac{\exp(\hat{y}_c)}{\sum_{j=1}^C \exp(\hat{y}_j)}$$
 ---
 
 ## 4. Discussion & Defense Questions
-1. **Microstructure Latency:** Why is a CNN inference latency of $\sim 15\text{ms}$ sufficient for macroeconomic risk adjustment, but completely non-viable for collocated High-Frequency Trading (HFT)?
+1. **Microstructure Latency & Adverse Selection:** Why do tier-1 quantitative market makers (e.g., **Jane Street**, **Citadel Securities**) treat retail headline scraping as an adverse selection risk rather than an execution alpha source? Why is a CNN inference latency of $\sim 15\text{ms}$ sufficient for macroeconomic risk adjustment, but completely non-viable for collocated HFT?
 2. **Kernel Interpretability:** How do the activation maps of $k=2$ (bigram) filters differ from $k=4$ (4-gram) filters when processing compound phrases such as *"controlled airspace shutdown"*?
 3. **Catastrophic Drift:** How does a language model pre-trained on modern web data perform on historical event syntax from 2001?

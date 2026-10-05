@@ -40,6 +40,16 @@ While this formulation is an effective introductory sandbox for mastering founda
 3. **The Pedagogical Hazard of False Confidence:**  
    Teaching students that a basic 3-class classifier can reliably generate trading alpha without accounting for adverse selection, execution slippage, and spread dynamics creates a hazardous illusion of market predictability. In live financial markets, deploying capital on lagging sentiment scrapers leads to immediate adverse selection and capital destruction.
 
+> [!WARNING]
+> ### ⚠️ A Note on Pedagogical Overconfidence in Financial AI
+> When universities hand undergraduate students a toy tutorial called *"Sentiment Analysis of Financial News to Help Investors Make Trading Decisions,"* students frequently walk away with dangerous delusions:
+> - **That financial markets are linear, stationary, and predictable.**
+> - **That a 10-line PyTorch script scraping headlines can outsmart Jane Street and Citadel.**
+> - **That opening a retail brokerage account to trade on lagging sentiment signals is viable—only to be wiped out in milliseconds by adverse selection and execution slippage.**
+> 
+> *In an adversarial financial ecosystem, pedagogical overconfidence is financial self-harm.*  
+> **BlackSwan was engineered to replace this toy illusion with quantitative reality: neural networks in finance are forensic risk-measurement instruments, not speculative gambling toys.**
+
 ### 2. The Black Swan Pivot: Neural Architectures as Forensic Instruments
 Rather than dismissing the 1D CNN + Embedding architecture, quantitative research desks recognize its true power: **forensic microstructure analysis of exogenous shocks (Black Swan events).**
 

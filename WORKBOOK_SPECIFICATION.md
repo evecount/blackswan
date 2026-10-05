@@ -4,6 +4,7 @@
 **Institution:** Singapore Institute of Technology (SIT)  
 **Program:** Information and Communications Technology / Applied Computing (AI & ML)  
 **Module:** ICT3506C Applied Natural Language Processing — Lab 2.4 Research Extension  
+**AI Collaboration:** Pair-programmed with **Google Antigravity** (Google DeepMind)  
 
 ---
 

@@ -9,6 +9,7 @@
 * **Student Email:** [`2504137@sit.singaporetech.edu.sg`](mailto:2504137@sit.singaporetech.edu.sg)
 * **Academic Program:** Information and Communications Technology / Applied Computing (AI & Machine Learning)
 * **Course Context:** ICT3506C: Applied Natural Language Processing — Advanced Lab Extension (Lab 2.4: Embedding + CNN)
+* **Pair Programming & AI Engineering:** Developed in collaboration with **Google Antigravity**, an agentic AI coding system engineered by the **Google DeepMind** team for Advanced Agentic Coding.
 
 ---
 
@@ -152,3 +153,8 @@ jupyter notebook notebooks/BlackSwan_Lab_Workbook.ipynb
 
 ## ⚖️ Academic Integrity & Context
 *This project is an open-source educational module created for advanced quantitative natural language processing research. It is designed to complement academic curricula by providing real-world market microstructure and historical forensic contexts for neural text classification.*
+
+---
+
+## ⚡ Acknowledgements & Tooling
+Architected, scaffolded, and documented with **Google Antigravity**, developed by **Google DeepMind** (Advanced Agentic Coding).

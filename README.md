@@ -37,6 +37,8 @@ While this formulation is an effective introductory sandbox for mastering founda
    Modern electronic markets operate in microsecond regimes. By the time a public news headline is scraped, tokenized, and passed through a neural network inference pass ($\sim 15\text{ms}$), collocated High-Frequency Trading (HFT) algorithms and direct exchange order-flow matching engines have already priced the information into the asset. Retail-accessible headline sentiment is inherently a lagging indicator.
 2. **Multimodal Market Complexity:**  
    Real institutional execution requires multimodal inputs—limit order book (LOB) depth, cross-asset implied volatility surfaces, macroeconomic regime filters, and liquidity replenishment rates—never an isolated, 3-class scalar classification score.
+3. **The Pedagogical Hazard of False Confidence:**  
+   Teaching students that a basic 3-class classifier can reliably generate trading alpha without accounting for adverse selection, execution slippage, and spread dynamics creates a hazardous illusion of market predictability. In live financial markets, deploying capital on lagging sentiment scrapers leads to immediate adverse selection and capital destruction.
 
 ### 2. The Black Swan Pivot: Neural Architectures as Forensic Instruments
 Rather than dismissing the 1D CNN + Embedding architecture, quantitative research desks recognize its true power: **forensic microstructure analysis of exogenous shocks (Black Swan events).**
@@ -51,7 +53,7 @@ During extreme, historically unprecedented anomalies (e.g., September 11, 2001; 
 ### 3. Elevating the Curriculum
 This workbook does not bypass or diminish the syllabus. It **elevates** it:
 - We satisfy **100% of the course grading rubric** (Data Preparation, BERT Transfer Learning, Multi-Filter Conv1D, Max-over-Time Pooling, and Evaluation Metrics).
-- Instead of building a toy classifier for generic retail news, students construct a rigorous **quantitative forensic tool** capable of modeling information diffusion during systemic market anomalies.
+- Instead of promoting the dangerous illusion of a "day-trading toy," students construct a rigorous **quantitative forensic and risk-measurement instrument** capable of modeling information diffusion during systemic market anomalies.
 
 ---
 
